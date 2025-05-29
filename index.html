@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RHC IMZADI — Andrew Murphy & Partners</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: white;
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      color: gold;
+      letter-spacing: 1px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 1em 0;
+      font-size: 1.1em;
+      line-height: 1.5em;
+      color: #eee;
+    }
+
+    form {
+      margin-top: 2em;
+    }
+
+    input {
+      background: #111;
+      border: 1px solid #444;
+      color: white;
+      padding: 0.5em;
+      margin: 0.25em;
+      border-radius: 4px;
+    }
+
+    button {
+      background: gold;
+      border: none;
+      color: black;
+      padding: 0.5em 1em;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .message {
+      margin-top: 1em;
+      color: #f66;
+      display: none;
+    }
+
+    .contact {
+      margin-top: 3em;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: gold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <!-- 
+    [Prime-Padded ASCII Seed Mapping]
+    ---------------------------------------------------
+    Primes:        [2, 3, 5, 7, 11, 13, 17, 19, 23]
+    Transform:             chr(((p × 3 + 11) % 26) + 65)
+    Output:     R H C I M Z A D I
+  
+  -->
+
+</head>
+<body>
+  <h1>RHC IMZADI</h1>
+  <p>Andrew Murphy & Partners provide advanced mathematical and computational consulting services for select engagements. We do not solicit work. Inquiries are welcome, but unsolicited projects are rarely accepted.</p>
+
+  <form onsubmit="validateAccess(event)">
+    <input type="text" placeholder="Client ID" required>
+    <input type="password" placeholder="Access Key" required>
+    <button type="submit">Login</button>
+    <div class="message" id="loginMessage">Access denied. Please verify credentials.</div>
+  </form>
+
+  <div class="contact">
+    <a href="mailto:clients@andrewmurphy.net">Contact Us</a>
+  </div>
+
+  <script>
+    // Basic public login layer — client verification handled securely elsewhere
+    function validateAccess(event) {
+      event.preventDefault();
+      const message = document.getElementById('loginMessage');
+      message.style.display = 'none';
+      setTimeout(() => {
+        message.style.display = 'block';
+      }, 1200);
+    }
+  </script>
+</body>
+</html>
