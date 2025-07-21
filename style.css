@@ -214,17 +214,23 @@ footer {
   border-top: 1px solid #222;
 }
 
-/* Photo styling */
 .photo-placeholder {
   display: block;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
   object-fit: cover;
   margin: 30px auto;
-  border: 3px solid var(--accent-color);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  mask-image: url('blob-mask.svg');
+  -webkit-mask-image: url('blob-mask.svg'); /* Safari support */
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
+
 
 /* Links */
 a {
