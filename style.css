@@ -228,13 +228,14 @@ footer {
 
 /* Links */
 a {
-  color: var(--accent-color);
+  color: var(--accent-color) !important;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
 
 /* Logo strip */
 .logo-strip {
