@@ -1,4 +1,6 @@
 /* Andrew Murphy site CSS: safe update for existing HTML only */
+/* Keeps existing HTML selectors and keeps portrait inside blob mask */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -13,8 +15,8 @@
   --accent-strong: #f0d58a;
   --border-color: rgba(214, 180, 95, 0.26);
   --subtle-border: rgba(255, 255, 255, 0.08);
-  --shadow-soft: 0 18px 50px rgba(0, 0, 0, 0.32);
-  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.28);
+  --shadow-soft: 0 18px 50px rgba(0, 0, 0, 0.30);
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.25);
   --heading-font: 'Inter', 'Open Sans', Helvetica, Arial, sans-serif;
   --body-font: 'Inter', 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -33,14 +35,14 @@ html {
 body {
   font-family: var(--body-font);
   background:
-    radial-gradient(circle at top left, rgba(214, 180, 95, 0.10), transparent 32rem),
+    radial-gradient(circle at top left, rgba(214, 180, 95, 0.08), transparent 30rem),
     linear-gradient(to bottom, #10151b 0%, #151b23 48%, #0f141a 100%),
     url('hydrogen-pattern.svg');
   background-repeat: no-repeat, no-repeat, repeat;
   background-size: auto, auto, 120px;
   background-blend-mode: normal, normal, overlay;
   color: var(--text-color);
-  line-height: 1.75;
+  line-height: 1.72;
   font-size: clamp(15px, 1.05vw, 17px);
   padding-bottom: 40px;
   text-rendering: optimizeLegibility;
@@ -52,54 +54,56 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.035), transparent 18rem);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.03), transparent 18rem);
   z-index: -1;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--heading-font);
   color: var(--text-color);
-  letter-spacing: -0.045em;
+  letter-spacing: -0.04em;
   text-wrap: balance;
 }
 
 h1 {
-  max-width: 1120px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 58px 22px 20px;
-  font-size: clamp(2.15rem, 4.7vw, 4.65rem);
-  font-weight: 800;
-  line-height: 1.04;
+  padding: 38px 22px 14px;
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+  font-weight: 780;
+  line-height: 1.08;
   text-align: center;
 }
 
 h2 {
   max-width: 900px;
-  margin: 58px auto 18px;
+  margin: 54px auto 18px;
   padding: 0 20px;
-  font-size: clamp(1.55rem, 2.3vw, 2.25rem);
-  font-weight: 750;
-  line-height: 1.12;
+  font-size: clamp(1.45rem, 2.1vw, 2.05rem);
+  font-weight: 760;
+  line-height: 1.14;
   text-align: center;
 }
 
 h3 {
   max-width: 820px;
-  margin: 38px auto 12px;
+  margin: 36px auto 12px;
   padding: 0 20px;
-  font-size: 1.22rem;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.25;
 }
 
 nav {
-  background: rgba(13, 18, 24, 0.88);
+  background: rgba(13, 18, 24, 0.90);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   padding: 14px 20px;
   display: flex;
   justify-content: center;
-  gap: clamp(14px, 2vw, 30px);
+  gap: clamp(14px, 2vw, 28px);
   border-bottom: 1px solid var(--subtle-border);
   position: sticky;
   top: 0;
@@ -154,7 +158,8 @@ p {
   letter-spacing: -0.008em;
 }
 
-strong, b {
+strong,
+b {
   color: var(--text-color);
   font-weight: 700;
 }
@@ -162,8 +167,8 @@ strong, b {
 hr {
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(214, 180, 95, 0.35), transparent);
-  margin: 66px auto;
+  background: linear-gradient(to right, transparent, rgba(214, 180, 95, 0.32), transparent);
+  margin: 64px auto;
   max-width: min(760px, 84%);
 }
 
@@ -239,7 +244,7 @@ blockquote footer {
   max-width: 840px;
   margin: 48px auto;
   background:
-    linear-gradient(145deg, rgba(214, 180, 95, 0.12), rgba(255,255,255,0.035)),
+    linear-gradient(145deg, rgba(214, 180, 95, 0.11), rgba(255,255,255,0.032)),
     var(--card-background-flat);
   color: var(--text-color);
   padding: 32px 24px;
@@ -253,8 +258,8 @@ blockquote footer {
 
 .call-to-action:hover {
   transform: translateY(-2px);
-  border-color: rgba(214, 180, 95, 0.48);
-  box-shadow: 0 18px 55px rgba(214, 180, 95, 0.12), var(--shadow-soft);
+  border-color: rgba(214, 180, 95, 0.46);
+  box-shadow: 0 18px 55px rgba(214, 180, 95, 0.11), var(--shadow-soft);
 }
 
 .contact-info {
@@ -289,11 +294,10 @@ footer {
 
 .photo-placeholder {
   display: block;
-  width: clamp(176px, 18vw, 230px);
-  height: clamp(176px, 18vw, 230px);
+  width: clamp(170px, 18vw, 220px);
+  height: clamp(170px, 18vw, 220px);
   object-fit: cover;
-  margin: 34px auto 22px;
-  border-radius: 50%;
+  margin: 28px auto 18px;
   mask-image: url('blob-mask.svg');
   -webkit-mask-image: url('blob-mask.svg');
   mask-size: cover;
@@ -302,7 +306,7 @@ footer {
   -webkit-mask-repeat: no-repeat;
   mask-position: center;
   -webkit-mask-position: center;
-  box-shadow: 0 18px 50px rgba(0,0,0,0.46);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.42);
 }
 
 a {
@@ -410,8 +414,8 @@ a:focus-visible {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: clamp(2rem, 10vw, 3rem);
-    padding: 38px 16px 16px;
+    font-size: clamp(1.65rem, 7.2vw, 2.35rem);
+    padding: 32px 16px 14px;
   }
 
   h2 {
@@ -428,13 +432,23 @@ a:focus-visible {
     font-size: 0.9rem;
   }
 
-  p, ul, .contact-info {
+  p,
+  ul,
+  .contact-info {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  ul li, .call-to-action, blockquote {
+  ul li,
+  .call-to-action,
+  blockquote {
     padding: 18px;
+  }
+
+  .photo-placeholder {
+    width: clamp(160px, 52vw, 205px);
+    height: clamp(160px, 52vw, 205px);
+    margin-top: 24px;
   }
 
   .proof-metrics {
