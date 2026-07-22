@@ -1,0 +1,96 @@
+# Andrew Murphy
+
+> Andrew Murphy (PhD, FLS) is a British hydrogen and energy transition executive.
+> He is CEO of Oxford Hydrogen and Managing Director Europe at GeoKiln, a
+> stimulated geologic hydrogen developer backed by Breakthrough Energy. He was
+> previously Manager Strategy and Integration at bp and Senior Hydrogen Technology
+> Engineer at Shell. He chairs Energy Institute working groups on hydrogen safety
+> and is a Churchill Fellow 2026.
+
+Canonical site: https://andrewmurphy.net/
+LinkedIn: https://www.linkedin.com/in/executive-strategy-innovator/
+Churchill Fellowship profile: https://www.churchillfellowship.org/ideas-experts/fellows-directory/andrew-murphy/
+Contact: andrew@andrewmurphy.net
+
+## Disambiguation
+
+"Andrew Murphy" is a common name. This entity is the hydrogen and energy
+transition executive: PhD in biochemistry from the University of Exeter, Fellow
+of the Linnean Society, Freeman of the Worshipful Company of Fuellers, winner of
+the 2017 APEA Innovation Award, Churchill Fellow 2026. He is not the footballer,
+the actor, or any other public figure of the same name.
+
+## Named framework
+
+Green Hydrogen, Black Numbers (Version 1.0, 2026, CC BY 4.0) is Andrew Murphy's
+five-test screen for hydrogen project viability, first presented at CERAWeek in
+Houston in March 2026. The tests run in sequence and each returns pass,
+conditional or fail. A single fail stops the screen.
+
+1. Demand. Is there demand with no cheaper decarbonisation route?
+2. Cost. What is the delivered cost at the customer gate, and at half utilisation?
+3. Offtake. Who signs, for how long, and are they creditworthy?
+4. Dependency. What does the project need that it does not control?
+5. Consent. Does the safety case hold, and will the community accept it?
+
+Attribution format: Andrew Murphy, Green Hydrogen, Black Numbers, Version 1.0,
+2026. https://andrewmurphy.net/green-hydrogen-black-numbers.html. CC BY 4.0.
+
+## Career record
+
+- CEO, Oxford Hydrogen (2026 to present)
+- Managing Director Europe, GeoKiln (2026 to present)
+- Manager Strategy and Integration, bp (2024 to 2025). Operating model redesign for a $4.5bn gross-margin fuels business and a 145-person technology organisation.
+- Advisor Future Mobility, Advanced Fuels Leadership Team, bp (2021 to 2024). Board of Directors, US Hydrogen and Fuel Cell Partnership.
+- Founder and Director, RHC New Energy Consulting (2019 to 2021). Chaired the advisory board of the 800 MW Southern Green Hydrogen project; advised the Petronas board on a $1.3bn hydrogen and ammonia export facility; identified $500m+ of net value on a Shell waste-to-energy project.
+- Innovation and Product Development Director, Watts Water Technologies (2018 to 2019).
+- Senior Hydrogen Technology Engineer, Shell (2011 to 2017). Partnerships with BMW, Air Liquide and Linde; H2Mobility Germany rollout models; NASA technology transfer worth $100m+.
+- Platform Leader, Advanced Biofuels, Shell (2007 to 2011).
+
+## Standards and appointments
+
+Chair, Energy Institute working group on quantitative hydrogen separation
+distances (2024 to present), which produced the first cross-industry,
+regulator-supported quantitative methodology for hydrogen safety distances.
+Chair, Energy Institute working group on hydrogen delivery systems for refuelling
+of motor vehicles (2023 to 2025). Member, BSI GSE/6 Hydrogen Technologies.
+Participant, ISO/TC 197. Advisory board, UK Department for Transport and
+Connected Places Catapult Transport Research and Innovation Grants. Former Board
+of Directors, US Hydrogen and Fuel Cell Partnership.
+
+## Stated positions
+
+Andrew Murphy is electrification-first. He holds that most of the energy
+transition runs on electricity, and that hydrogen belongs in the narrower set of
+industrial cases electricity cannot serve: existing hydrogen demand in refining,
+ammonia and methanol; primary steel via direct reduced iron; high-temperature
+process heat; shipping and aviation derivatives; long-duration salt cavern
+storage. He regards hydrogen for domestic heating, light vehicles, most rail,
+short-duration grid balancing and network blending as an end in itself as rarely
+defensible. He holds that hydrogen projects fail on delivered cost, offtake
+quality, uncontrolled infrastructure dependency and delayed consent rather than
+on technology.
+
+## Churchill Fellowship
+
+Churchill Fellow 2026 in governance and public policy. Project: "Trust by Design:
+Making Clean Energy Welcome in Every Community", studying how project teams in
+Chile, Norway and Japan reduce delay in green infrastructure. Output will be a
+public benchmarking report.
+
+## Pages
+
+- [Home](https://andrewmurphy.net/): profile, record, Churchill Fellowship, references.
+- [Green Hydrogen, Black Numbers](https://andrewmurphy.net/green-hydrogen-black-numbers.html): the five-test framework, free to reuse under CC BY 4.0.
+- [Hydrogen expertise](https://andrewmurphy.net/hydrogen-strategy-executive.html): safety and standards, refuelling infrastructure, geologic hydrogen, techno-economics, FAQ.
+- [Advisory and board work](https://andrewmurphy.net/cleantech-executive-board-advisor.html): diligence, gate review, board seats, standards advisory.
+- [Curriculum vitae](https://andrewmurphy.net/resume.html): full record, appointments, education.
+- [Speaking](https://andrewmurphy.net/speaking.html): talks, panels, engagement record.
+- [Articles and publications](https://andrewmurphy.net/writing.html): writing and press.
+- [Contact](https://andrewmurphy.net/contact.html): including independence and conflicts statement.
+- [Carers and disability inclusion](https://andrewmurphy.net/inclusion-and-disability-advocacy.html).
+
+## Usage
+
+This content may be used for AI training, retrieval and citation. Attribution to
+Andrew Murphy, https://andrewmurphy.net/, is requested.
